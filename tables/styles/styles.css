@@ -1,0 +1,147 @@
+body{
+    background:rgb(41, 75, 95);
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    line-height: 2;
+}
+/*how to prevent my links/buttons from chopping out in certain sizes*/
+.container{
+    max-width: 1080px;
+    width:80%;
+    padding:20px;
+    margin:10px auto;/*this centers the information*/
+    background:rgb(65, 65, 65);
+    color:rgb(63, 95, 114);
+}
+
+.rec{
+    max-width: 1080px;
+    padding:20px;
+    margin:10px auto;/*this centers the information*/
+    background:rgb(0, 0, 0);
+    color:rgb(63, 95, 114);
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    
+}
+
+nav{
+    width:40%;
+    text-align:center;
+    margin:10px auto;
+    line-height:2;
+    
+}
+
+nav a{
+    text-decoration: none;/*what does this mean*/
+    padding:5px 10px;
+    background:rgb(41, 75, 95);
+    border:2px solid rgb(30, 56, 71);
+    text-decoration:none;
+    color:rgb(194, 194, 194);
+    text-align:center;
+    border-radius:20px;
+}
+
+nav a:hover{
+    background:greenyellow;
+    color:purple;
+}
+
+
+
+
+div{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 20px;
+    color:rgb(41, 75, 95)
+}
+
+table{
+    margin:20px auto;
+    border-spacing: 5px;/*confused of what this was suppose to do*/
+    
+}
+
+table, th, td{
+    border: 1px solid rgb(65, 65, 65);
+    border-collapse: collapse;/*gets rid of the hollow space in the border for the table*/
+}
+
+th, td{
+    padding:15px; /*increases the space within the tables*/
+}
+
+th{
+    text-align:center;
+}
+
+h1{
+    max-width: 1080px;
+    padding:15px;
+    margin:10px auto;/*this centers the information*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    color:rgb(47, 90, 116);
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:20px;
+    color:rgb(30, 55, 70);
+}
+
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:10px;
+    color:rgb(255, 255, 255);
+}
+
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:10px;
+    color:rgb(255, 255, 255);
+}
+
+.nov{
+    max-width: 1080px;
+    width:80%;
+    padding:20px;
+    margin:10px auto;/*this centers the information*/
+    background:rgb(63, 95, 114);
+    
+}
+
+.birth{
+    max-width: 1080px;
+    width:14%;
+    height:14%;
+    padding:0px;
+    margin:10px auto;/*this centers the information*/
+    background:teal;
+}
+
+.gray{
+    max-width: 1080px;
+    width:14%;
+    height:14%;
+    padding:0px;
+    margin:10px auto;/*this centers the information*/
+    background:rgba(31, 48, 58, 0.514);
+}
